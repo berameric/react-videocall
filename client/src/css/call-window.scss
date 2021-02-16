@@ -8,6 +8,7 @@
 	z-index: -1;
 	@include transition(opacity 0.5s);
 	@include bg-gradient(top, #074055 0%, #030D10 100%);
+	background:#0d1117;
 	
 	&.active {
 		opacity: 1;
