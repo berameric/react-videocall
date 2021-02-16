@@ -9,6 +9,8 @@
 	text-align: center;
 	display: none;
 	background:#0d111750;
+	background:#0d111770;
+	backdrop-filter: blur(7px);
 
 	&.active {
 		display: block;
@@ -18,10 +20,12 @@
 
 	.btn-action:not(.hangup) {
 		background-color: $green;
+		background-color: #60c96e;
 	}
 
 	span.caller {
 		color: $blue;
+		color:#fff;
 	}
 
 	p {
