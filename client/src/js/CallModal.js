@@ -8,6 +8,26 @@ function CallModal({ status, callFrom, startCall, rejectCall }) {
     const config = { audio: true, video };
     return () => startCall(false, callFrom, config);
   };
+  
+    var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3');
+  if(status=="active"){
+   
+     
+      audio.loop=true;
+      audio.play();
+      console.log(status)
+      
+      document.querySelector(".hangup").addEventListener("click",()=>{
+        audio.pause()
+      });
+      document.querySelector(".phone").addEventListener("click",()=>{
+        audio.pause()
+      });
+      document.querySelector(".camera").addEventListener("click",()=>{
+        audio.pause()
+      });
+    
+  }
 
   return (
     <div className={classnames('call-modal', status)}>
@@ -16,12 +36,12 @@ function CallModal({ status, callFrom, startCall, rejectCall }) {
       </p>
       <button
         type="button"
-        className="btn-action fa fa-video-camera"
+        className="btn-action camera fa fa-video-camera"
         onClick={acceptWithVideo(true)}
       />
       <button
         type="button"
-        className="btn-action fa fa-phone"
+        className="btn-action phone fa fa-phone"
         onClick={acceptWithVideo(false)}
       />
       <button
