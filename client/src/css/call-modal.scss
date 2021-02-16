@@ -8,6 +8,7 @@
 	@include border-radius(5px);
 	text-align: center;
 	display: none;
+	background:#0d111750;
 
 	&.active {
 		display: block;
