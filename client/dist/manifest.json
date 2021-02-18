@@ -1,0 +1,24 @@
+{
+    "short_name": "cow",
+    "name": "cow video chat",
+    "icons": [
+      {
+        "src": "/logos/logo.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/logos/logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#161b22",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#161b22",
+   
+    "description": "Weather forecast information"
+  
+  }
