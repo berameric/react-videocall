@@ -1,4 +1,5 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: cow-video-call.herokuapp.com
-Token: 4d56bdc05fb1f77b8f9e00215da789710185adbba5a16bfc6962f8ee10672a5c
+Token: 3c8c142077be95e0fab5c706b7a0b4a393e3628bab46b5f0d742ae4ae9f7e6ed
+
